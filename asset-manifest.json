@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CVV_Yatsiuk_O/static/css/main.37be9609.chunk.css",
-    "main.js": "/CVV_Yatsiuk_O/static/js/main.ac76283e.chunk.js",
-    "main.js.map": "/CVV_Yatsiuk_O/static/js/main.ac76283e.chunk.js.map",
+    "main.js": "/CVV_Yatsiuk_O/static/js/main.d8302972.chunk.js",
+    "main.js.map": "/CVV_Yatsiuk_O/static/js/main.d8302972.chunk.js.map",
     "runtime-main.js": "/CVV_Yatsiuk_O/static/js/runtime-main.823d5b51.js",
     "runtime-main.js.map": "/CVV_Yatsiuk_O/static/js/runtime-main.823d5b51.js.map",
     "static/js/2.1fd040ba.chunk.js": "/CVV_Yatsiuk_O/static/js/2.1fd040ba.chunk.js",
     "static/js/2.1fd040ba.chunk.js.map": "/CVV_Yatsiuk_O/static/js/2.1fd040ba.chunk.js.map",
     "index.html": "/CVV_Yatsiuk_O/index.html",
-    "precache-manifest.e2cb36aae372e347f0adab4e54654f93.js": "/CVV_Yatsiuk_O/precache-manifest.e2cb36aae372e347f0adab4e54654f93.js",
+    "precache-manifest.ffc6fea382f4a117e1bc8ffa70411b70.js": "/CVV_Yatsiuk_O/precache-manifest.ffc6fea382f4a117e1bc8ffa70411b70.js",
     "service-worker.js": "/CVV_Yatsiuk_O/service-worker.js",
     "static/css/main.37be9609.chunk.css.map": "/CVV_Yatsiuk_O/static/css/main.37be9609.chunk.css.map",
     "static/js/2.1fd040ba.chunk.js.LICENSE.txt": "/CVV_Yatsiuk_O/static/js/2.1fd040ba.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.823d5b51.js",
     "static/js/2.1fd040ba.chunk.js",
     "static/css/main.37be9609.chunk.css",
-    "static/js/main.ac76283e.chunk.js"
+    "static/js/main.d8302972.chunk.js"
   ]
 }
