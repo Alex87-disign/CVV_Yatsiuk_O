@@ -1,0 +1,46 @@
+.languages{
+    display: grid;
+    grid-template-areas: "ua en ru sn";
+    /* grid-template-columns: 3% 3% 3% 87%; */
+    margin: 20px;
+    justify-content: start;
+    margin-left: 68px;
+    
+    
+}
+.russian{
+    grid-area:ru ;
+    padding: 10px;
+    }
+    .russian:hover{
+      transform: scale(1.1);
+    }
+    .ukranian{
+      grid-area: ua;
+      padding: 10px;
+    }
+    .ukranian:hover{
+      transform: scale(1.1);
+    }
+    .russian img{
+     border-radius: 20px;
+     border: 1px solid white;
+    }
+    .english img{
+      border-radius: 20px;
+      border: 1px solid white;
+     }
+     .ukranian img{
+      border-radius: 20px;
+      border: 1px solid white;
+     }
+    .english{
+      grid-area:en ;
+      padding: 10px;
+    }
+    .english:hover{
+      transform: scale(1.1);
+    }
+    
+    
+  

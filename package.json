@@ -1,5 +1,7 @@
 {
-  "name": "my-app",
+  "homepage":
+"http://Alex87-disign.github.io/CVV_Yatsiuk_O",
+  "name": "CVV_Yatsiuk_O",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -30,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

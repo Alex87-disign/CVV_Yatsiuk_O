@@ -1,0 +1,23 @@
+.socialNetworks{
+    display: grid;
+    /* grid-area: sn; */
+    grid-template-areas: "li fe te sk";
+    
+  
+  }
+  .linkedin{
+      grid-area: li;
+      margin: 5px;
+  }
+  .facebook{
+grid-area: fe;
+margin: 5px;
+  }
+  .telegram{
+      grid-area: te;
+      margin: 5px;
+  }
+  .git{
+      grid-area: sk;
+      margin: 5px;
+  }

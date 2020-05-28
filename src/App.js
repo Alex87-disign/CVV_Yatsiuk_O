@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppUa from './components/UA/AppUa'
+import AppUk from './AppUk'
+import AppRu from './components/RU/AppRu'
+import { HashRouter as HashRouter, Route, Switch } from 'react-router-dom';
+import Languages from './components/Languages'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+        <Switch>
+          <Route path="/ru"><AppRu /></Route>
+          <Route path="/ua"><AppUa /></Route>
+          <Route path="/"><AppUk /></Route>
+          
+      </Switch>
+      
   );
 }
 

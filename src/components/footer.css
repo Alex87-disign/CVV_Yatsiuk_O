@@ -1,0 +1,23 @@
+
+  .jobinfo{
+  display: grid;  
+  border: 1px solid rgb(129, 193, 236);
+  margin: 50px auto;
+  margin-top: -20px;
+  width: 1200px;
+  background-color: rgb(126, 218, 141);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* background: linear-gradient(to top, #aca359, #0eaa7b); */
+  }
+  .jobinfo h5{
+margin: 10px;
+text-align: center;
+text-decoration: underline;
+  }
+  .jobinfo p{
+      margin: 20px;
+      text-align: center;
+  }
+ .jobinfo p:before {
+    content: "-"; 
+  }

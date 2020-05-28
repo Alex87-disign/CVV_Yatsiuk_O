@@ -1,0 +1,51 @@
+.header{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas: 
+    "p n sum"
+    "p s sum";
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    width: 1200px;
+    background-color: rgb(126, 218, 141);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border:1px solid rgb(129, 193, 236);
+    }
+    .photo img{
+      margin: 10px;
+      border:1px solid rgb(129, 193, 236); 
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+    }
+    .photo{
+        grid-area: p;
+      justify-content: center;
+    }
+    .name{
+        grid-area: n;   
+        margin: 20px;     
+    }
+    .name h1{
+      font-family: 'Raleway', sans-serif;
+    }
+    .name h2{
+      color:white;
+    }
+    .name h3{
+      text-decoration: underline;
+    }
+    .name h5{
+      font-family: 'Raleway', sans-serif;
+      margin: 0px auto;
+    }
+    .summary{
+      font-family: 'Muli', sans-serif;
+      grid-area: sum;
+      margin: 27px;
+      text-decoration:unset;
+      
+    }
+    .summary h3{
+      font-family: 'Muli', sans-serif;
+      text-transform: uppercase;
+    }

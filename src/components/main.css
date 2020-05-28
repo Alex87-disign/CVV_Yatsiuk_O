@@ -1,0 +1,40 @@
+.main{
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid rgb(129, 193, 236);
+  margin: 50px auto;
+  width: 1200px;
+  background-color: rgb(126, 218, 141);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* background: linear-gradient(to top, #aca359, #0eaa7b); */
+  }
+  .main h2{
+    text-align: center;
+    margin: 0px auto;
+  }
+  .main h5{
+    margin: 0px auto;
+  }
+  .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"ski w";
+    margin: 10px ;  
+  }
+  .skillsinfo{
+    /* margin: 10px auto; */
+    grid-area: ski;
+    border-right: 1px solid rgb(129, 193, 236);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .skills_right{
+    margin-left: 30px ;
+    grid-area: w;
+  }
+  .education p{
+    margin: 0px;
+    margin-top: 2px;
+    color: rgb(37, 35, 37);
+    text-decoration: underline;
+  }
